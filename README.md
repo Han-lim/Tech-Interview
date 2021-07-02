@@ -1,5 +1,7 @@
 # Tech-Interview
-[(https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm)
+
+[Algorithm](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm)
+
 ----
 ### About Deep Learning
 
