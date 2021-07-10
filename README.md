@@ -2,8 +2,9 @@
 
 ### 🥑 About CS
 1) Algorithm
- - [Greedy] (https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Greedy)
-
+ - [Greedy](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Greedy)
+ - [Divide&Conquer](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Divide&Conquer)
+ - [Binary Search]
 ----
 ### About Deep Learning
 
