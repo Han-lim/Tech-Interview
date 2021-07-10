@@ -1,5 +1,4 @@
 ### Divide and Conquer
-
 - 문제를 나눌 수 없을 때까지 나누어서(Divide) 각각 풀면서(Conquer) 다시 합병하여 문제의 답을 얻는 알고리즘
 
 -----
@@ -50,19 +49,19 @@
 
 <br></br>
 3) 수열의 빠른 합
-- 1부터 n까지의 합을 n개의 조각으로 나눈 뒤, 이들을 반으로 잘라 n/2개 조각들로 만들어진 부분 문제 두 개를 만듦
+- 1부터 n까지의 합을 n개의 조각으로 나눈 뒤, 이들을 반으로 잘라 n/2개 조각들로 만들어진 부분 문제 두 개를 만듦  
 
-- [1 ~ $n \over 2$] 과 [$\frac{n}{2}  +1$ ~ n]로 나눌 수 있음
+- 1 ~ ![first equation](https://latex.codecogs.com/gif.latex?n%20%5Cover%202) 과 <img src="https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D%20&plus;1" width="40" height="25">~ n로 나눌 수 있음
 
-- 첫 번째 부분은 fastSum($\frac{n}{2}$)로 나타낼 수 있지만, 두 번째 문제는 나타낼 수 있는 방법을 생각해야 함
+- 첫 번째 부분은 fastSum(![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D))로 나타낼 수 있지만, 두 번째 문제는 나타낼 수 있는 방법을 생각해야 함
 
-- ($\frac{n}{2}$+1) + ... + n  
-   = ($\frac{n}{2}$+1) + ($\frac{n}{2}$+2) + ... ($\frac{n}{2}$+$\frac{n}{2}$)   // 결국, $\frac{n}{2}$ + $\frac{n}{2}$ + $\frac{n}{2}$ + .... 가 $\frac{n}{2}$번 반복되고, 1+ 2+ 3+ ... + $\frac{n}{2}$가 남게 됨  
-   = $\frac{n}{2}$ x $\frac{n}{2}$ + (1 +2 + 3 + ... + $\frac{n}{2}$)
-   = $\frac{n}{2}$ * $\frac{n}{2}$ + fastSum($\frac{n}{2}$)
+- (![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)+1) + ... + n  
+   = (![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)+1) + (![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)+2) + ... (![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)+![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D))   // 결국, ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) + ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) + ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) + .... 가 ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)번 반복되고, 1+ 2+ 3+ ... + ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)가 남게 됨  
+   = ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) x ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) + (1 +2 + 3 + ... + ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D))
+   = ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) * ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) + fastSum(![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D))
 <br></br>
 - fastSum(n) 
-   = 2 x fastSum($\frac{n}{2}$) + $\frac {n^{2}}{4}$  (n은 짝수)   // fastSum($\frac{n}{2}$) + $\frac{n}{2}$ * $\frac{n}{2}$ + fastSum($\frac{n}{2}$)  
+   = 2 x fastSum(![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)) + ![third](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Csmall%20%5Cfrac%7Bn%5E2%7D%7B4%7D)  (n은 짝수)   // fastSum(![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D)) + ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) * ![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D) + fastSum(![second](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bn%7D%7B2%7D))  
 
 <br></br>
 
@@ -71,7 +70,7 @@
 
 - m이 커질수록 시간이 오래 걸리는 작업  
 
-- 분할 정복을 적용한다면 $A^m = A^{m/2} * A^{m/2}$  
+- 분할 정복을 적용한다면 ![fourth](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Csmall%20A%5Em) = ![fifth](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Csmall%20A%5E%5Cfrac%7Bm%7D%7B2%7D) * ![fifth](https://latex.codecogs.com/gif.latex?%5Cdpi%7B100%7D%20%5Csmall%20A%5E%5Cfrac%7Bm%7D%7B2%7D)  
 - 같은 문제라도 어떻게 분할하느냐에 따라 시간 복잡도 차이가 커지게 됨 (계속 분할할지, 짝수번째만 분할할지)  
 
 - 계속해서 절반으로 나누는 알고리즘이 큰 효율 저하를 불러 오는 이유는 여러번 중복되어 계산이 되면서 시간을 소모하는 부분이 문제  
@@ -93,6 +92,6 @@
 <분할정복의 장점>
 - 같은 작업을 더 빠르게 처리할 수 있음.
 
-[참고 문헌]  
+[참고 사이트]  
 1) https://data-make.tistory.com/232
 
