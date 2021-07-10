@@ -1,7 +1,8 @@
 # Tech-Interview
 
 ### 🥑 About CS
-1) [Algorithm](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm)
+1) Algorithm
+ - Greedy (https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Greedy)
 
 ----
 ### About Deep Learning
