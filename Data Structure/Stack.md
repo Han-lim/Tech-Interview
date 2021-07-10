@@ -1,16 +1,16 @@
 ## Stack
 
-### Stack 개념
+### ☑️ Stack 개념
 - 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 LIFO(Last In First Out)형식의 자료구조
 -----
-### Stack 연산
+### ☑️ Stack 연산
 (1) pop(): 스택에서 가장 위에 있는 항목을 제거  
 (2) push(item): item 하나를 스택의 가장 윗 부분에 추가  
 (3) peek(): 스택의 가장 위에 있는 항목을 반환  
 (4) isEmpty(): 스택이 비어 있을 때에 true를 반환  
 
 ----
-### Stack 구현
+### ☑️ Stack 구현
 
 ```python
 class Stack:
@@ -66,7 +66,7 @@ class Stack:
     
 ```
 ----
-### Stack 응용
+### ☑️ Stack 응용
 + 재귀 알고리즘
     + 재귀적으로 함수를 호출해야 하는 경우에 임시 데이터를 스택에 넣어줌  
     + 재귀함수를 빠져 나와 backtrack을 할 때는 스택에 넣어 두었던 임시 데이터를 pop 해야 함  
