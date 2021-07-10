@@ -1,6 +1,6 @@
 # Tech-Interview
 
-### About CS
+### 🥑 About CS
 1) [Algorithm](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm)
 
 ----
