@@ -5,10 +5,15 @@
  ### 1. Algorithm
   - [Greedy](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Greedy)
   - [Divide&Conquer](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Divide&Conquer)
-  - [Binary Search]
- ----
+  - [Binary Search]  
+
+(백준 알고리즘 solution 포함, 파일명: '주제_문제번호')
+
+----
  ### 2. Data Structure
-  - [Stack] (https://github.com/Han-lim/Tech-Interview/tree/main/Data Structure/Stack)
+  - [Stack](https://github.com/Han-lim/Tech-Interview/tree/main/Data%20Structure/Stack)  
+
+(백준 알고리즘 solution 포함, 파일명: '주제_문제번호')
 
 ## About Deep Learning
 
