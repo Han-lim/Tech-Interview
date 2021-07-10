@@ -7,6 +7,8 @@
   - [Divide&Conquer](https://github.com/Han-lim/Tech-Interview/tree/main/Algorithm/Divide&Conquer)
   - [Binary Search]
  ----
+ ### 2. Data Structure
+  - [Stack] (https://github.com/Han-lim/Tech-Interview/tree/main/Data Structure/Stack)
 
 ## About Deep Learning
 
